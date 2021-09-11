@@ -2,7 +2,7 @@
 СТО ПРОЦЕНТОВ ЕСЛИ ЭКРАН БУДЕТ НЕ БОЛЬШЕ ЧЕМ 320ПК*/
 @media screen and(max-width:320px) {
     img {
-        width: 100px;
+        width: 100%;
     }
     
 }
