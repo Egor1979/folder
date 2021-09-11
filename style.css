@@ -1,7 +1,17 @@
+/*МЕДИАЗАПРОС КОТОРЫЙ ПРИМЕНЯЕТСЯ К СТИЛЯМ ЕСЛИ СОБЛЮДЕНО ПРАВИЛО,В ДАННОМ СЛУЧАЕ ШИРИНА ИЗОБРАЖЕНИЯ БУДЕТ 
+СТО ПРОЦЕНТОВ ЕСЛИ ЭКРАН БУДЕТ НЕ БОЛЬШЕ ЧЕМ 320ПК*/
+@media screen and(max-width:320px) {
+    img {
+        width: 100px;
+    }
+    
+}
 html {
     box-sizing: border-box;
 }
-
+*,*::before,*::after {
+    box-sizing: inherit;
+}
 
 body {
     background-color: green;
